@@ -17,4 +17,4 @@ s3fs <имя бакета> /mount/<путь к папке> -o passwd_file=$HOME/
 ```
 s3fs#<имя бакета> /mount/<путь к папке> fuse _netdev,allow_other,use_path_request_style,url=http://storage.yandexcloud.net,passwd_file=/home/<имя пользователя>/.passwd-s3fs 0 0
 ```
-Материал заимствован YandexCloud: https://cloud.yandex.ru/docs/storage/tools/s3fs
+Материал заимствован из YandexCloud: https://cloud.yandex.ru/docs/storage/tools/s3fs
